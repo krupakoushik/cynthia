@@ -1,4 +1,4 @@
-# cynthia
+# Cynthia - The coolest bot in town 😎
 I made a discord bot and since my wallet is superficial, This is all I could make since github doesnt support server side websites, Well check out my bot and add it to your server :)
 ______________________________________________________________________________________________________________________________________________________________________
 You can either go to the website - https://krupakoushik.github.io/cynthia
