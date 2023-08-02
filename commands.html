@@ -28,8 +28,12 @@
                 <a href="#Misc">Misc</a> |
                 <a href="#Mod">Mod</a> |
                 <a href="#Music">Music</a> |
+                <a href="#Prefix">Prefix</a> |
                 <a href="#Reactions">Reactions</a> |
                 <a href="#Search">Search</a> |
+                <a href="#Starboard">Starboard</a> |
+                <a href="#Ticket">Ticket</a> |
+                <a href="#Welcome">Welcome</a> |
             </p>
         </div>
         <div class="section" id="AI">
@@ -683,14 +687,6 @@
                         <td><span class="strike">poll em</span>...host a poll...</td>
                     </tr>
                     <tr>
-                        <td>?prefix</td>
-                        <td>get the current prefix of your guild, default is `?`</td>
-                    </tr>
-                    <tr>
-                        <td>?setprefix <span class="req">&lt;prefix&gt;</span></td>
-                        <td>set a custom prefix for your guild</td>
-                    </tr>
-                    <tr>
                         <td>?purge <span class="ali">(clean)</span> <span class="req">&lt;int&gt;</span></td>
                         <td>purge em</td>
                     </tr>
@@ -733,31 +729,6 @@
                     <tr>
                         <td>?editwarn <span class="req">&lt;user&gt;</span> <span class="req">&lt;warn&gt;</span></td>
                         <td>edit em</td>
-                    </tr>
-                    <tr>
-                        <td>?welcome <span class="req">&lt;channel&gt;</span> <span class="opt">[msg]</span> <span class="opt">[bg link from
-                                imgur]</span></td>
-                        <td>default card is also pretty cool, just like me :)</td>
-                    </tr>
-                    <tr>
-                        <td>?welcomedel</td>
-                        <td>turns it off for your server</td>
-                    </tr>
-                    <tr>
-                        <td>?ticket <span class="req">&lt;category id&gt;</span></td>
-                        <td>configures a cool ahh ticket system with that catrgory</td>
-                    </tr>
-                    <tr>
-                        <td>?ticketdel</td>
-                        <td>removes the ticket system for your guild, your loss</td>
-                    </tr>
-                    <tr>
-                        <td>?close</td>
-                        <td>deletes the ticket channel</td>
-                    </tr>
-                    <tr>
-                        <td>?starboard <span class="req">&lt;channel&gt;</span></td>
-                        <td>react to a msg 3 times with star emoji :)</td>
                     </tr>
                 </tbody>
             </table>
@@ -834,6 +805,21 @@
                     <tr>
                         <td>?volume <span class="req">&lt;int&gt;</span></td>
                         <td>0 - 100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="section" id="Prefix">
+            <h2>?Prefix</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>?prefix</td>
+                        <td>get the current prefix of your guild, default is `?`</td>
+                    </tr>
+                    <tr>
+                        <td>?setprefix <span class="req">&lt;prefix&gt;</span></td>
+                        <td>set a custom prefix for your guild</td>
                     </tr>
                 </tbody>
             </table>
@@ -1008,6 +994,52 @@
                 </tbody>
             </table>
         </div>
+        <div class="section" id="Starboard">
+            <h2>?Starboard</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>?starboard <span class="req">&lt;channel&gt;</span></td>
+                        <td>react to a msg 3 times with star emoji :)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="section" id="Ticket">
+            <h2>?Ticket</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>?ticket <span class="req">&lt;category id&gt;</span></td>
+                        <td>configures a cool ahh ticket system with that catrgory</td>
+                    </tr>
+                    <tr>
+                        <td>?ticketdel</td>
+                        <td>removes the ticket system for your guild, your loss</td>
+                    </tr>
+                    <tr>
+                        <td>?close</td>
+                        <td>deletes the ticket channel</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="section" id="Welcome">
+            <h2>?Welcome</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>?welcome <span class="req">&lt;channel&gt;</span> <span class="opt">[msg]</span> <span class="opt">[bg link from
+                                imgur]</span></td>
+                        <td>default card is also pretty cool, just like me :)</td>
+                    </tr>
+                    <tr>
+                        <td>?welcomedel</td>
+                        <td>turns it off for your server</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <div id="go-up-button">
             <i class="fas fa-arrow-up"></i>
         </div>
@@ -1015,6 +1047,5 @@
             Website ♡ <a href="https://krupakoushik.github.io">Krupa Koushik</a>
         </div>
         <script src="assets/js/index.js"></script>
-
     </body>
 </html>
